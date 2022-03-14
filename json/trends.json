@@ -1,0 +1,249 @@
+{
+	"cards": [
+	{
+		"id": "1",
+		"label": [{
+			
+				"type": "warning",
+				"icon": "best-price",
+				"text":  "Лучшая цена"
+			}],
+		"images": [
+			{
+				"image1": "slider-1.png",
+				"image2": "slider-1-1.png",
+				"image3": "slider-1-2.png"
+			}
+		],
+		"link": "javascript:void(0);/#",
+		"title": "Диван-трансформер «Камертон-1» SL ₽",
+		"priceCurrent": "9 490",
+		"priceOld": "10 540",
+		"available": "В наличии",
+				
+		"info1": [{
+			"descr": "Механизм",
+			"value":"Аккордеон"
+		}],
+		"info2": [{
+			"descr": "Размеры:",
+			"value1": "90 см (В)",
+			"value2": "95 см (Г)",
+			"value3": "218 см (Ш)"
+		}],
+
+		"info3": [{
+			"descr": "Спальное место:",
+			"value1":"160 см (Ш)",
+			"value2": "218 см (Д)",
+			"value3": ""
+			}
+		]
+	},
+	{
+		"id": "2",
+		"label": [{
+			
+				"type": "success",
+				"icon": "promo-fill",
+				"text":  "Кресло в подарок"
+			}],
+		"images": [
+			{
+				"image1": "slider-2.png",
+				"image2": "slider-0.png",
+				"image3": ""
+			}
+		],
+
+		"link": "javascript:void(0);/#",
+		"title": "Диван с декоративными подушками \"Олимп\" (Нексус)",
+		"priceCurrent": "12 290",
+		"priceOld": "10 540",
+		"available": "В наличии",
+				
+		"info1": [{
+			"descr": "Механизм",
+			"value":"Аккордеон"
+		}],
+		"info2": [{
+			"descr": "Размеры:",
+			"value1": "90 см (В)",
+			"value2": "95 см (Г)",
+			"value3": "218 см (Ш)"
+		}],
+
+		"info3": [{
+			"descr": "Спальное место:",
+			"value1":"160 см (Ш)",
+			"value2": "218 см (Д)",
+			"value3": ""
+			}
+		]
+	},
+	{
+		"id": "3",
+		"label": [{
+			
+				"type": "",
+				"icon": "",
+				"text":  ""
+			}],
+		"images": [
+			{
+				"image1": "slider-3.png",
+				"image2": "slider-0.png",
+				"image3": ""
+			}
+		],
+
+		"link": "javascript:void(0);/#",
+		"title": "Диван \"КАМЕЛИЯ\"",
+		"priceCurrent": "14 490",
+		"priceOld": "9 150",
+		"available": "В наличии",
+				
+		"info1": [{
+			"descr": "Механизм",
+			"value":"Аккордеон"
+		}],
+		"info2": [{
+			"descr": "Размеры:",
+			"value1": "90 см (В)",
+			"value2": "95 см (Г)",
+			"value3": "218 см (Ш)"
+		}],
+
+		"info3": [{
+			"descr": "Спальное место:",
+			"value1":"160 см (Ш)",
+			"value2": "218 см (Д)",
+			"value3": ""
+			}
+		]
+	},
+	{
+		"id": "4",
+		"label": [{
+			
+				"type": "danger",
+				"icon": "best-price",
+				"text":  "Лучшая цена"
+			}],
+		"images": [
+			{
+				"image1": "slider-4.png",
+				"image2": "slider-0.png",
+				"image3": ""
+			}
+		],
+
+		"link": "javascript:void(0);/#",
+		"title": "Диван-кровать \"Палермо 2\" рогожка",
+		"priceCurrent": "12 790",
+		"priceOld": "16 810",
+		"available": "В наличии",
+				
+		"info1": [{
+			"descr": "Механизм",
+			"value":"Аккордеон"
+		}],
+		"info2": [{
+			"descr": "Размеры:",
+			"value1": "90 см (В)",
+			"value2": "95 см (Г)",
+			"value3": "218 см (Ш)"
+		}],
+
+		"info3": [{
+			"descr": "Спальное место:",
+			"value1":"160 см (Ш)",
+			"value2": "218 см (Д)",
+			"value3": ""
+			}
+		]
+	},
+	{
+		"id": "5",
+		"label": [{
+			
+				"type": "",
+				"icon": "",
+				"text":  ""
+			}],
+		"images": [
+			{
+				"image1": "slider-5.png",
+				"image2": "slider-0.png",
+				"image3": ""
+			}
+		],
+
+		"link": "javascript:void(0);/#",
+		"title": "Одеяло Овечья шерсть универсал 1400мм",
+		"priceCurrent": "1 790",
+		"priceOld": "",
+		"available": "В наличии",
+				
+		"info1": [{
+			"descr": "",
+			"value":""
+		}],
+		"info2": [{
+			"descr": "Размеры:",
+			"value1": "2050 мм (Г)",
+			"value2": "1400 мм (Ш)",
+			"value3": ""
+		}],
+
+		"info3": [{
+			"descr": "",
+			"value1":"",
+			"value2": "",
+			"value3": ""
+			}
+		]
+	},
+	{
+		"id": "6",
+		"label": [{
+			
+				"type": "success",
+				"icon": "",
+				"text":  "-40%"
+			}],
+		"images": [
+			{
+				"image1": "slider-6.png",
+				"image2": "slider-5.png",
+				"image3": ""
+			}
+		],
+
+		"link": "javascript:void(0);/#",
+		"title": "Подушка классик ортопедическая VL3.2",
+		"priceCurrent": "3 790",
+		"priceOld": "6 320",
+		"available": "В наличии",
+				
+		"info1": [{
+			"descr": "",
+			"value":""
+		}],
+		"info2": [{
+			"descr": "Размеры:",
+			"value1": "2050 мм (Г)",
+			"value2": "1400 мм (Ш)",
+			"value3": ""
+		}],
+
+		"info3": [{
+			"descr": "",
+			"value1":"",
+			"value2": "",
+			"value3": ""
+			}
+		]
+	}				
+]
+}

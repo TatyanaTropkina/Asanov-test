@@ -1,0 +1,347 @@
+@media (min-width: 767px) {
+	.accordion-button::after {
+		display: none;
+	}
+
+	.collapse:not(.show) {
+		display: block;
+	}
+
+	.collapsing {
+		height: 100%;
+		overflow: visible;
+		transition: none;
+	}
+
+	.footer__menu {
+		.accordion-header {
+
+			border-bottom: none;
+		}
+	}
+
+}
+
+@media(max-width: 1280px) {
+	.container {
+		padding: 0 16px;
+	}
+}
+
+@media (max-width:992px) {
+	.header__top-content {
+		height: 52px;
+	}
+
+	.actions__links {
+
+		position: absolute;
+		right: 16px;
+		top: 16px;
+		z-index: 600;
+	}
+
+	.header__list-link.phone__link::before {
+		display: block;
+	}
+
+	.header__list-link.location {
+		display: none;
+	}
+
+	.header-phone__link,
+	.account,
+	.cart {
+		height: 28px;
+	}
+
+	.phone__link {
+		order: -1;
+		width: 28px;
+		margin-right: 0;
+
+	}
+
+	.account {
+		margin: 0 12px;
+	}
+
+	.header__list-btn {
+		display: none;
+	}
+
+	.actions__search {
+
+		margin-right: 0;
+	}
+
+	.sidebar__top {
+		padding: 11px 20px 11px 10px;
+		display: flex;
+		background-color: $grey-fills;
+
+	}
+
+	.sidebar {
+		background-color: transparent;
+		box-shadow: none;
+		height: 52px;
+		padding-bottom: 0;
+	}
+
+	.sidebar__inner {
+		transform: translateX(-100%);
+		transition: $transition;
+		background-color: #fff;
+		height: 100vh;
+
+	}
+
+	.sidebar__inner.active {
+		transform: translateX(0);
+
+	}
+
+	.menu .dropdown {
+		left: -3px !important;
+		margin-top: 60px;
+		top: 52px !important;
+		padding: 20px 0 0;
+	}
+
+	.main {
+
+		margin-left: 0;
+	}
+
+	.sidebar__top {
+		.navbar-toggler {
+			display: block;
+		}
+	}
+
+
+	.navbar-toggler span {
+		position: relative;
+
+		&::before,
+		&:after {
+			font-size: 28px;
+			top: 3px;
+		}
+
+		&::before {
+			display: none;
+		}
+
+		&::after {
+			display: block;
+		}
+
+
+	}
+
+	.navbar-toggler[aria-expanded="true"] span {
+
+		&::before {
+			display: block;
+		}
+
+		&::after {
+			display: none;
+		}
+
+	}
+
+	.navbar-toggler {
+		border: none;
+		padding: 0;
+	}
+
+	.navbar-toggler:focus {
+
+		box-shadow: none;
+	}
+
+	.sidebar__logo {
+		margin: 0 auto 0 12px;
+	}
+
+	.form-select {
+		order: -1;
+		background-color: #fff;
+	}
+
+
+
+}
+
+@media(max-width: 767px) {
+
+	.accordion__inner {
+		display: block;
+	}
+
+	.footer-phone__link {
+		padding-left: 32px;
+		margin-left: 10px;
+	}
+
+	.footer__top {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+	}
+
+
+	.trends {
+		padding: 24px 0 40px;
+	}
+
+	.item-product__colors {
+		display: none;
+	}
+
+	.item-product__info {
+		display: none;
+	}
+
+
+	.product-controls__desktop {
+		display: none;
+	}
+
+	.product-controls__mob {
+		display: block;
+	}
+
+	.product-controls__mob:active {
+		background-color: $pink;
+	}
+
+	.item-product__title {
+		font-size: 12px;
+		line-height: 133%;
+	}
+
+	.item-product__price {
+		font-size: 16px;
+	}
+
+	.item-product {
+
+		grid-template-rows: 168px 1fr auto;
+
+		&:active {
+			@include border(1, $pink)
+		}
+	}
+
+	.item-product__label {
+
+		font-size: 10px;
+
+		&::before {
+			font-size: 13px;
+		}
+	}
+
+	.owl-carousel .owl-nav {
+
+		display: none;
+	}
+
+	.trends-slider {
+		padding-top: 0;
+	}
+
+	.header__list-link.location {
+		display: none;
+	}
+
+	.footer .phone__link {
+		display: block;
+
+		flex: 1 1 auto;
+	}
+
+	.social__icons {
+		margin-bottom: 32px;
+	}
+
+	.social {
+		margin: 32px 0 0;
+	}
+
+	.sidebar__top {
+		background-color: transparent;
+	}
+
+	.sidebar__logo {
+		margin: 0 10px 0 12px;
+
+	}
+}
+
+
+@media (max-width: 550px) {
+	.mobile__nav {
+		display: block;
+	}
+
+	.actions__inner {
+		flex-wrap: wrap;
+	}
+
+	.form-select {
+		width: 100%;
+		margin-bottom: 10px;
+		flex: 1 1 auto;
+	}
+
+	.header {
+		padding-top: 52px;
+	}
+
+	.menu .dropdown {
+		width: 100%;
+		box-shadow: none;
+		transform: translate3d(0, -44px, 0px) !important;
+		position: fixed !important;
+		background-color: #fff;
+		z-index: 10;
+		padding: 16px 0 0;
+
+		&__item-title {
+			font-size: 0;
+		}
+
+		.menu__item-btn {
+			display: block;
+			padding: 6px 0 6px 73px;
+
+			&::before {
+				left: 0;
+				right: auto;
+				transform: rotate(180deg);
+			}
+
+			&::after {
+				left: 30px;
+			}
+		}
+	}
+
+	.sidebar {
+		width: 100%;
+	}
+
+	.footer__text {
+		font-size: 12px;
+		flex-direction: column;
+	}
+
+	.footer__mini-logo {
+		margin: 32px 0 0 0;
+	}
+}

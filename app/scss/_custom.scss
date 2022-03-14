@@ -1,0 +1,53 @@
+.owl-carousel {
+	.owl-nav {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 10;
+	}
+
+	.owl-prev {
+
+		margin-right: 16px;
+
+		svg {
+			transform: rotate(180deg);
+		}
+	}
+
+	.owl-prev,
+	.owl-next {
+		display: inline-block;
+		transition: $transition;
+		@include border(1, $main-text !important);
+		border-radius: 50%;
+		width: 32px;
+		height: 32px;
+		position: relative;
+
+		svg {
+			position: absolute;
+			top: 4px;
+			left: 3px;
+		}
+
+		&:hover {
+			@include border(1, $pink !important);
+		}
+
+		&.disabled {
+			@include border(1, $grey-lines !important);
+			background-color: #fff;
+			cursor: context-menu;
+
+			&:hover {
+				background-color: $grey-fills !important;
+				@include border(1, $grey-lines !important);
+			}
+		}
+	}
+}
+
+.owl-carousel.owl-drag .owl-item {
+	padding: 0 1px;
+}

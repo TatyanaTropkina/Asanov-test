@@ -1,0 +1,258 @@
+$grey-fills: #F2F1F3;
+$grey-lines: #E6E4E7;
+$grey-text: #A2A0A3;
+$main-text: #1A1A1A;
+$light-pink: #FDEAF1;
+$pink: #EE2A74;
+
+$warning: #F2C94C;
+$success: #27AE60;
+$danger:#EE2A74;
+$menuShadow: 0px 0px 24px rgba(0, 0, 0, 0.06);
+$accordion-button-active-color: shade-color(red, 100%);
+$transition: all .2s linear;
+$radius: 8px;
+
+
+
+%hel-regular {
+	font-family: "Helvetica", serif;
+	font-weight: 400;
+}
+
+%hel-bold {
+	font-family: "Helvetica", serif;
+	font-weight: 700;
+}
+
+%content {
+	content: '';
+	position: absolute;
+}
+
+[class^="__"]::before,
+[class*=" __"]::before,
+[class^="__"]::after,
+[class*=" __"]::after {
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position: absolute;
+	color: $main-text;
+}
+
+// ========after
+
+.__account:before {
+	content: "\e900";
+}
+
+.__arrow:before {
+	content: "\e901";
+}
+
+.__assembly:before {
+	content: "\e902";
+}
+
+.__bedroom:after {
+	content: "\e903";
+}
+
+.__best-price:before {
+	content: "\e904";
+}
+
+.__calendar:before {
+	content: "\e905";
+}
+
+.__cart-empty:before {
+	content: "\e906";
+}
+
+.__cart-fill:before {
+	content: "\e907";
+}
+
+.__close:before {
+	content: "\e908";
+}
+
+.__close-big:before {
+	content: "\e909";
+}
+
+.__closet:after {
+	content: "\e90a";
+}
+
+.__filter:before {
+	content: "\e90b";
+}
+
+.__gift:before {
+	content: "\e90c";
+}
+
+.__guarantees:before {
+	content: "\e90d";
+}
+
+.__hall:after {
+	content: "\e90e";
+}
+
+.__kitchen:after {
+	content: "\e90f";
+}
+
+.__menu:after {
+	content: "\e910";
+}
+
+.__minus:before {
+	content: "\e911";
+}
+
+.__more:after {
+	content: "\e912";
+}
+
+.__new:before {
+	content: "\e913";
+}
+
+.__office:after {
+	content: "\e914";
+}
+
+.__phone:before {
+	content: "\e915";
+}
+
+.__pin:before {
+	content: "\e916";
+}
+
+.__plus:before {
+	content: "\e917";
+}
+
+.__premium:after {
+	content: "\e918";
+}
+
+.__promo:before {
+	content: "\e919";
+}
+
+.__room:after {
+	content: "\e91a";
+}
+
+.__sale:before {
+	content: "\e91b";
+}
+
+.__search:before {
+	content: "\e91c";
+}
+
+.__sofa:after {
+	content: "\e91d";
+}
+
+.__sort:before {
+	content: "\e91e";
+}
+
+.__table:after {
+	content: "\e91f";
+}
+
+
+
+.__child::after,
+.__delivery::after,
+.__rotang::after,
+.__promo-fill::before {
+	@extend %content;
+	width: 28px;
+	height: 28px;
+}
+
+
+// ========before
+
+
+.__child::after {
+
+	background-image: url(../images/icons/child.svg);
+
+}
+
+.__delivery::after {
+	background-image: url(../images/icons/delivery.svg);
+}
+
+.__rotang::after {
+	background-image: url(../images/icons/rotang.svg);
+
+}
+
+.__promo-fill::before {
+	background-image: url(../images/icons/promo-fill.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.__car-small::before {
+	background-image: url(../images/icons/car-small.svg);
+	width: 16px;
+	height: 16px;
+}
+
+.__yandex-r::before {
+	background-image: url(../images/yandex.png);
+	width: 80px;
+	height: 16px;
+
+}
+
+.__google-r::before {
+	background-image: url(../images/google.png);
+	width: 60px;
+	height: 16px;
+}
+
+.__gis::before {
+	background-image: url(../images/gis.png);
+	width: 54px;
+	height: 16px;
+
+}
+
+.__star-logo::before {
+	background-image: url(../images/star-logo.svg);
+	width: 16px;
+	height: 16px;
+}
+
+.__car-small::before,
+.__yandex-r::before,
+.__google-r::before,
+.__gis::before,
+.__star-logo::before {
+	@extend %content;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+}

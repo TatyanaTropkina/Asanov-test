@@ -281,6 +281,16 @@
 		}
 	}
 
+	&-button {
+		cursor: context-menu !important;
+	}
+
+	&-body__link {
+		&:hover {
+			color: $pink
+		}
+	}
+
 }
 
 .rating {

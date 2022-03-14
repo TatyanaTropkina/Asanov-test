@@ -250,8 +250,6 @@ button {
 			}
 		}
 	}
-
-
 }
 
 
@@ -265,7 +263,12 @@ button {
 	background-color: $grey-fills;
 	border: none;
 	border-radius: none;
+	transition: $transition;
 	transition: border-color none, box-shadow none;
+
+	&:hover {
+		color: $pink;
+	}
 
 	&:focus {
 		border-color: none;
